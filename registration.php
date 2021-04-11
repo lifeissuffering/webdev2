@@ -57,7 +57,7 @@
             <input type="password" name="password" value="<?php echo @$data['password']; ?>"  placeholder="Придумайте пароль">
         </div>
         <div class="form-floating">
-            <input type="password" name="password2" value="<?php echo @$data['password']; ?>"  placeholder="Повторите пароль">
+            <input type="password" name="password2" value="<?php echo @$data['password2']; ?>"  placeholder="Повторите пароль">
         </div>
         <button class="mt-3 w-100 btn btn-lg btn-primary" type="submit" name="do_signup">Зарегистрироваться</button>
                 <p class="mt-5 mb-3 text-muted">© 2021</p>
