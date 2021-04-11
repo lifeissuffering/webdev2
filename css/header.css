@@ -1,0 +1,168 @@
+body {
+    height: 100%;
+}
+form{
+    width: 330px;
+}
+#hat{
+    z-index: 9999;
+    position: fixed;
+    background-color: white;
+    
+}
+.comm{
+    padding: 20px;
+    border-style:inset;
+    border-width: 1px;
+    border-color: black;
+}
+.comment{
+    width: auto;
+    height: 200px;
+}
+.form-signin, .form-signup {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+input{
+    width:100%;
+    padding: 10px;
+    outline: none;
+}
+.checkbox {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 330px;
+    
+    font-weight: 400;
+}
+input[type="checkbox"]
+{
+    margin-top: 5px;
+    width: 30px;
+}
+.mt-5{
+    text-align: center;
+}
+.main{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px 5vh;
+    height: 100vh;  
+}
+.addreview{
+    margin: 0 auto;
+    width: 100vh;
+}
+#date_comm{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#text_comment{
+    height: 100px;
+}
+textarea{
+    width:100%;
+    padding: 10px;
+    outline: none;
+}
+input:invalid:not(:placeholder-shown) 
+{
+    border-color: red;
+}
+input:valid:not(:placeholder-shown) 
+{
+    border-color: green;
+}
+.item
+{
+    background-color:rgb(245, 245, 245);
+    width: 280px;
+    height: 340px;
+    margin: 0 0 20px 20px;
+}
+.title 
+{
+    height: 135px;
+    position: relative;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+strong
+{
+    display: block;
+    padding: 20px;
+   
+}
+span
+{
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 500;
+}
+img
+{
+    width: 280px;
+    height: 200px;
+}
+
+.items{
+    position: absolute;
+    left: 0px;
+    width:100vh;
+}
+.crop{
+    left: 0px;
+    float:left;
+    overflow: hidden;
+    position: relative;
+    width:840px;
+    height: 400px;
+}
+.crop img{
+    top: -100px;
+    position: absolute;
+    left: 0px;
+    width:840px;
+    height: 600px;
+}
+h1{
+    margin-left: 150px;
+}
+#header_signin{
+    margin-left: 75px;
+}
+#header_signup{
+    margin-left: 40px;
+}
+.col-md-3{
+    color:black;
+}
+.subcontainer{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-top: 460px;
+}
+.subcontainer div{
+    margin-bottom: 50px;
+}
