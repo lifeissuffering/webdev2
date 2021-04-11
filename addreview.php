@@ -16,7 +16,8 @@
        $review->author = $_SESSION['logged_user'];
        $review->date = date('Y-m-d H:i');
        R::store($review);
-       
+       header('Location: /review.php?next_id=' . $review->id . 
+       '&authorName=' . $review->author . '&film=' . $review->film);
     }
     ?>
 
