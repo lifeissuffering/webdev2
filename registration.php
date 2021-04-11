@@ -38,7 +38,7 @@
 
         } else
         {
-            echo '<div id=error style="color: red">'.array_shift($errors).'</div><hr>';
+            echo '<div id=error style="color: red">'.array_shift($errors).'</div>';
         }
     }
     
