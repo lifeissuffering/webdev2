@@ -29,13 +29,14 @@ include "head.html";
             <div>
                 <? echo $author; echo ', '; echo $date?>
             </div>
-            <? if ($video != "")
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $video?>" 
+            <? if ($video != ""){
+            echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $video?>" 
                 title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                 gyroscope; picture-in-picture" 
                 allowfullscreen>
-            </iframe>
+            </iframe>';
+            }
             ?>
             <form class="comment" name="comment" action="comment.php" method="post">
                 <p>
