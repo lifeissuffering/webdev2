@@ -6,6 +6,10 @@
     if ( isset($data['do_signup']) )
     {
         $errors = array();
+        if ($data['password'] != $data["password2"])
+        {
+            $errors[] = 'Пароли не совпадают!';
+        }
         if (trim($data['name']) == '')
         {
             $errors[] = 'Введите имя!';
@@ -34,7 +38,7 @@
 
         } else
         {
-            echo '<div style="color: red">'.array_shift($errors).'</div><hr>';
+            echo '<div id=error style="color: red">'.array_shift($errors).'</div><hr>';
         }
     }
     

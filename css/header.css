@@ -10,6 +10,11 @@ form{
     background-color: white;
     
 }
+#error{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
 .comm{
     padding: 20px;
     border-style:inset;
