@@ -55,6 +55,7 @@ include "head.html";
                 <div class="comm">
                 <?php 
                     $result_set = R::exec('SELECT * FROM comments WHERE page_id = ?', array($id));
+                    var_dump($result_set);
                     foreach($result_set as $row) {?>
                         <strong><? echo $row['name'];?></strong>
                         <? echo $row['text'];?>
